@@ -17,136 +17,143 @@
         </div>
 
         <div class="row mt-5">
-            <div class="col-md-6 col-lg-3 my-2 card animated animate__fadeInUp" aria-hidden="true">
-            <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
-            <div class="card-body">
-                <h5 class="card-title text-center my-2">
-                <span class=" text-center">Basmoti Kacchi</span>
-                </h5>
-                <div class="card-text row mt-4">
-                    <span class=" col-4">
-                        <img src="../../public/1.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/3.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/5.webp" style="width:50px" alt="">
-                    </span>
-                </div>
+            <div class="col-md-6 col-lg-3 p-1 animated animate__fadeInUp">
+                <div class="card" aria-hidden="true">
+                    <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center my-2">
+                        <span class=" text-center">Basmoti Kacchi</span>
+                        </h5>
+                        <div class="card-text row mt-4">
+                            <span class=" col-4">
+                                <img src="../../public/1.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/3.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/5.webp" style="width:50px" alt="">
+                            </span>
+                        </div>
 
-                <div class="card-text  row">
-                    <span class=" col-4 m-auto">
-                        Price : $4
-                    </span>
-                    <span class=" col-4">
-                        Price : $8
-                    </span>
-                    <span class=" col-4">
-                        Price : $15
-                    </span>
+                        <div class="card-text  row">
+                            <span class=" col-4 m-auto">
+                                Price : $4
+                            </span>
+                            <span class=" col-4">
+                                Price : $8
+                            </span>
+                            <span class=" col-4">
+                                Price : $15
+                            </span>
+                        </div>
+                    </div>  
                 </div>
             </div>
-            </div>
 
-            <div class="col-md-6 col-lg-3 my-2 card animated animate__fadeInUp" aria-hidden="true">
-            <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
-            <div class="card-body">
-                <h5 class="card-title text-center my-2">
-                <span class=" text-center">Basmoti Kacchi</span>
-                </h5>
-                <div class="card-text row mt-4">
-                    <span class=" col-4">
-                        <img src="../../public/1.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/3.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/5.webp" style="width:50px" alt="">
-                    </span>
-                </div>
+            <div class="col-md-6 col-lg-3 p-1 animated animate__fadeInUp">
+                <div class="card" aria-hidden="true">
+                    <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center my-2">
+                        <span class=" text-center">Basmoti Kacchi</span>
+                        </h5>
+                        <div class="card-text row mt-4">
+                            <span class=" col-4">
+                                <img src="../../public/1.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/3.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/5.webp" style="width:50px" alt="">
+                            </span>
+                        </div>
 
-                <div class="card-text  row">
-                    <span class=" col-4 m-auto">
-                        Price : $4
-                    </span>
-                    <span class=" col-4">
-                        Price : $8
-                    </span>
-                    <span class=" col-4">
-                        Price : $15
-                    </span>
-                </div>
-            </div>
-            </div>
-
-            <div class="col-md-6 col-lg-3 my-2 card animated animate__fadeInUp" aria-hidden="true">
-            <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
-            <div class="card-body">
-                <h5 class="card-title text-center my-2">
-                <span class=" text-center">Basmoti Kacchi</span>
-                </h5>
-                <div class="card-text row mt-4">
-                    <span class=" col-4">
-                        <img src="../../public/1.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/3.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/5.webp" style="width:50px" alt="">
-                    </span>
-                </div>
-
-                <div class="card-text  row">
-                    <span class=" col-4 m-auto">
-                        Price : $4
-                    </span>
-                    <span class=" col-4">
-                        Price : $8
-                    </span>
-                    <span class=" col-4">
-                        Price : $15
-                    </span>
+                        <div class="card-text  row">
+                            <span class=" col-4 m-auto">
+                                Price : $4
+                            </span>
+                            <span class=" col-4">
+                                Price : $8
+                            </span>
+                            <span class=" col-4">
+                                Price : $15
+                            </span>
+                        </div>
+                    </div>  
                 </div>
             </div>
+
+            <div class="col-md-6 col-lg-3 p-1 animated animate__fadeInUp">
+                <div class="card" aria-hidden="true">
+                    <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center my-2">
+                        <span class=" text-center">Basmoti Kacchi</span>
+                        </h5>
+                        <div class="card-text row mt-4">
+                            <span class=" col-4">
+                                <img src="../../public/1.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/3.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/5.webp" style="width:50px" alt="">
+                            </span>
+                        </div>
+
+                        <div class="card-text  row">
+                            <span class=" col-4 m-auto">
+                                Price : $4
+                            </span>
+                            <span class=" col-4">
+                                Price : $8
+                            </span>
+                            <span class=" col-4">
+                                Price : $15
+                            </span>
+                        </div>
+                    </div>  
+                </div>
             </div>
 
-            <div class="col-md-6 col-lg-3 my-2 card animated animate__fadeInUp" aria-hidden="true">
-            <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
-            <div class="card-body">
-                <h5 class="card-title text-center my-2">
-                <span class=" text-center">Basmoti Kacchi</span>
-                </h5>
-                <div class="card-text row mt-4">
-                    <span class=" col-4">
-                        <img src="../../public/1.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/3.webp" style="width:50px" alt="">
-                    </span>
-                    <span class=" col-4">
-                        <img src="../../public/5.webp" style="width:50px" alt="">
-                    </span>
-                </div>
+            <div class="col-md-6 col-lg-3 p-1 animated animate__fadeInUp">
+                <div class="card" aria-hidden="true">
+                    <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
+                    <div class="card-body">
+                        <h5 class="card-title text-center my-2">
+                        <span class=" text-center">Basmoti Kacchi</span>
+                        </h5>
+                        <div class="card-text row mt-4">
+                            <span class=" col-4">
+                                <img src="../../public/1.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/3.webp" style="width:50px" alt="">
+                            </span>
+                            <span class=" col-4">
+                                <img src="../../public/5.webp" style="width:50px" alt="">
+                            </span>
+                        </div>
 
-                <div class="card-text  row">
-                    <span class=" col-4 m-auto">
-                        Price : $4
-                    </span>
-                    <span class=" col-4">
-                        Price : $8
-                    </span>
-                    <span class=" col-4">
-                        Price : $15
-                    </span>
+                        <div class="card-text  row">
+                            <span class=" col-4 m-auto">
+                                Price : $4
+                            </span>
+                            <span class=" col-4">
+                                Price : $8
+                            </span>
+                            <span class=" col-4">
+                                Price : $15
+                            </span>
+                        </div>
+                        </div> 
                 </div>
-            </div>
             </div>
         </div>
-        </div>
-
+    </div>
         <OurBranch></OurBranch>
     </div>
 </template>
