@@ -19,8 +19,7 @@
 <script>
 export default {
     name:"OfficialGroup",
-    // components:{
-        
-    // }
+    components:{
+    }
 }
 </script>

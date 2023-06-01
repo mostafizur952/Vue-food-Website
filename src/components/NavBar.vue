@@ -30,7 +30,7 @@
         <!-- Add more menu items as needed -->
       </ul>
     </div>
-</nav>
+  </nav>
 
   </div>
 </template>

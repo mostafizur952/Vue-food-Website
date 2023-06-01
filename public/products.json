@@ -1,0 +1,21 @@
+{
+    "products": [
+      {
+        "name": "Product 1",
+        "category": "category1"
+      },
+      {
+        "name": "Product 2",
+        "category": "category2"
+      },
+      {
+        "name": "Product 3",
+        "category": "category1"
+      },
+      {
+        "name": "Product 4",
+        "category": "category3"
+      }
+    ]
+  }
+  
