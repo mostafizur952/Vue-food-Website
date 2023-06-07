@@ -2,6 +2,7 @@ import Home from './components/HomePage';
 import About from './components/AboutPage';
 import Menu from './components/MenuPage.vue';
 import Offer from './components/OfferPage.vue'
+import AllBranch from './components/AllBranch.vue'
 
 import {createRouter,createWebHistory }from 'vue-router';
 
@@ -26,6 +27,11 @@ const routes =[
         name :'Offer',
         component:Offer,
         path :'/Offer',
+    },
+    {
+        name :'AllBranch',
+        component:AllBranch,
+        path :'/branch',
     }
 ]
 

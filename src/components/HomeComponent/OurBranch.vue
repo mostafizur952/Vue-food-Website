@@ -8,7 +8,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title m-auto">Mirpur Branch</h5>
-                      <a class="fw-bold m-auto" style="cursor:pointer" src="">Show More <i class="bi bi-arrow-right"></i></a>  
+                      <router-link class="fw-bold m-auto" style="cursor:pointer" to="/branch">Show More <i class="bi bi-arrow-right"></i></router-link>  
                     </div>
                 </div>
             </div>
@@ -19,7 +19,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title m-auto">Mirpur Branch</h5>
-                      <a class="fw-bold m-auto" style="cursor:pointer" src="">Show More <i class="bi bi-arrow-right"></i></a>  
+                      <router-link class="fw-bold m-auto" style="cursor:pointer" to="/branch">Show More <i class="bi bi-arrow-right"></i></router-link>  
                     </div>
                 </div>
             </div>
@@ -30,7 +30,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title m-auto">Mirpur Branch</h5>
-                      <a class="fw-bold m-auto" style="cursor:pointer" src="">Show More <i class="bi bi-arrow-right"></i></a>  
+                      <router-link class="fw-bold m-auto" style="cursor:pointer" to="/branch">Show More <i class="bi bi-arrow-right"></i></router-link>  
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
 
                     <div class="card-body">
                         <h5 class="card-title m-auto">Mirpur Branch</h5>
-                      <a class="fw-bold m-auto" style="cursor:pointer" src="">Show More <i class="bi bi-arrow-right"></i></a>  
+                      <router-link class="fw-bold m-auto" style="cursor:pointer" to="/branch">Show More <i class="bi bi-arrow-right"></i></router-link>  
                     </div>
                 </div>
             </div>
