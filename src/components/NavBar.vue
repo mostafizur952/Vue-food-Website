@@ -22,10 +22,10 @@
           <router-link class="nav-link fw-bold"  to="/About">About</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link fw-bold"  to="/">Menu</router-link>
+          <router-link class="nav-link fw-bold"  to="/Menu">Menu</router-link>
         </li>
         <li class="nav-item">
-          <router-link class="nav-link fw-bold"  to="/About">Offer</router-link>
+          <router-link class="nav-link fw-bold"  to="/Offer">Offer</router-link>
         </li>
         <!-- Add more menu items as needed -->
       </ul>

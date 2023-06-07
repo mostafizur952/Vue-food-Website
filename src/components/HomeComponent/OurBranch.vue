@@ -1,8 +1,8 @@
 <template>
-    <div class="p-5 my-3" style="background: #ECFAFE;border-radius: 10px;">
-        <h1 class="display-6 text-center m-2 fw-bold ">Our Branch</h1>
+    <div class="p-3 py-5 my-3" style="background: #ECFAFE;border-radius: 10px;">
+        <h2 class="display-6 text-center m-2 fw-bold ">Our Branch</h2>
         <div class="branch row mt-5">
-            <div class="col-xl-3 col-md-6 p-1">
+            <div class="col-xl-3 col-md-6 col-sm-6 p-1">
                 <div class="card ">
                     <img src="../../../public/logo.webp" class="card-img-top" alt="...">
 
@@ -13,7 +13,7 @@
                 </div>
             </div>
             
-            <div class="col-xl-3 col-md-6 p-1 ">
+            <div class="col-xl-3 col-md-6 col-sm-6 p-1 ">
                 <div class="card ">
                     <img src="../../../public/logo.webp" class="card-img-top" alt="...">
 
@@ -24,7 +24,7 @@
                 </div>
             </div>
 
-            <div class="col-xl-3 col-md-6 p-1">
+            <div class="col-xl-3 col-md-6 col-sm-6 p-1">
                 <div class="card ">
                     <img src="../../../public/logo.webp" class="card-img-top" alt="...">
 
@@ -36,7 +36,7 @@
             </div>
 
 
-            <div class="col-xl-3 col-md-6 p-1">
+            <div class="col-xl-3 col-md-6 col-sm-6 p-1">
                 <div class="card ">
                     <img src="../../../public/logo.webp" class="card-img-top" alt="...">
 
@@ -48,14 +48,13 @@
             </div>
         </div>
     </div>
-   <PartnerPage></PartnerPage>
 </template>
 <script>
-import PartnerPage from './PartnerPage.vue';
+
 export default {
     name:"OurBranch",
     components:{
-        PartnerPage,
+       
     }
 }
 </script>
