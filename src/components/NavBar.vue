@@ -3,11 +3,11 @@
   <router-link to="/About">About</router-link> -->
   <div class="sticky-top bg-white shadow-sm p-2 mb-5">
     <nav class="navbar navbar-expand-lg container">
-      <a class="navbar-brand" href="#">
+      <a class="navbar-brand" href="/">
           <img src="../../public/logo.webp" style="width: 100%;height:50px;max-height: 100%;" alt="">
       </a>
       <div class="socialIcon">
-        <a href="" class="m-2 p-2  rounded" style="background:#CDEAF4;"><i class="bi bi-facebook"></i></a>
+        <a href="" class="m-2 p-2  rounded " style="background:#CDEAF4;"><i class="bi bi-facebook"></i></a>
         <a href="" class="m-2 p-2 rounded" style="background:#CDEAF4;"><i class="bi bi-instagram"></i></a>
       </div>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -16,7 +16,7 @@
     <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <router-link class=" active nav-link fw-bold"  to="/">Home</router-link>
+          <router-link class=" nav-link fw-bold"  to="/">Home</router-link>
         </li>
         <li class="nav-item">
           <router-link class="nav-link fw-bold"  to="/About">About</router-link>

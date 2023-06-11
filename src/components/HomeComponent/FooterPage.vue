@@ -14,28 +14,23 @@
         <div class=" col-sm-3 col-md-4 col-lg-4 ">
           <h3>Product</h3>
           
-            <li><a href="">Menu</a></li>
+            <li><a href="/menu">Menu</a></li>
             <li><a href="">Price List</a></li>
-            <li><a href="">Reviews</a></li>
-            <li><a href="">Updates</a></li>
-          
+            <li><a href="">Reviews</a></li>          
         </div>
         <div class=" col-sm-4  col-md-4 col-lg-4 ">
           <h3>Company</h3>
           
-            <li><a href="">About Us</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Blogs</a></li>
+            <li><a href="/about">About Us</a></li>
+            <li><a href="/contactus">Contact Us</a></li>
+            <li><a href="/blog">Blogs</a></li>
           
         </div>
         <div class=" col-sm-4  col-md-4 col-lg-4">
           <h3>Support</h3>
           
-            <li><a href="">Help Center</a></li>
-            <li><a href="">Report a Bug</a></li>
-            <li><a href="">Chat Support</a></li>
-          
+            <li><a href="/contactus">Help Center</a></li>
+            <li><a href="/privacy">Privacy Policy</a></li>          
         </div>
       </div>
     </div>
@@ -94,3 +89,34 @@ h3{
 
 }
 </style>
+
+
+
+
+
+<!-- 
+<div class="col-md-6 justify-content-center align-items-center">
+  <div class="row fmenubar">
+    <div class=" col-sm-3 col-md-4 col-lg-4 ">
+      <h3>Product</h3>
+      
+        <li><router-link to="/menu">Menu</router-link></li>
+        <li><router-link to="">Price List</router-link></li>
+        <li><router-link to="">Reviews</router-link></li>          
+    </div>
+    <div class=" col-sm-4  col-md-4 col-lg-4 ">
+      <h3>Company</h3>
+      
+        <li><router-link to="/about">About Us</router-link></li>
+        <li><router-link to="/contactus">Contact Us</router-link></li>
+        <li><router-link to="/blog">Blogs</router-link></li>
+      
+    </div>
+    <div class=" col-sm-4  col-md-4 col-lg-4">
+      <h3>Support</h3>
+      
+        <li><router-link to="/contactus">Help Center</router-link></li>
+        <li><router-link to="/privacy">Privacy Policy</router-link></li>          
+    </div>
+  </div>
+</div> -->

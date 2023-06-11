@@ -3,6 +3,10 @@ import About from './components/AboutPage';
 import Menu from './components/MenuPage.vue';
 import Offer from './components/OfferPage.vue'
 import AllBranch from './components/AllBranch.vue'
+import ContactUs from './components/ContactUs.vue'
+import PrivacyPage from './components/PrivacyPage.vue'
+import BlogPage from './components/BlogPage.vue'
+
 
 import {createRouter,createWebHistory }from 'vue-router';
 
@@ -32,8 +36,25 @@ const routes =[
         name :'AllBranch',
         component:AllBranch,
         path :'/branch',
+    },
+    {
+        name :'ContactUs',
+        component:ContactUs,
+        path :'/contactus',
+    }
+    ,
+    {
+        name :'PrivacyPage',
+        component:PrivacyPage,
+        path :'/privacy',
+    },
+    {
+        name :'BlogPage',
+        component:BlogPage,
+        path :'/blog',
     }
 ]
+
 
 const router = createRouter ({
     history:createWebHistory(),

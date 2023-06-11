@@ -1,8 +1,10 @@
 <template>
      <div class="jumbotron p-4 " style="background:#FFF2F2;border-radius:15px">
 
-        <h1 class="display-6 text-center mt-2 fw-bold">Our Special Menu</h1>
-        <hr class="my-3 center m-auto" style="width:200px">
+        <h2 class="display-6 text-center mt-2 fw-bold">Our Special Menu</h2>
+        <hr class="my-3 center m-auto col-sm-2">
+
+        <hr class="my-3 center m-auto col-sm-6">
         <div class="lead my-3 ">
             <ul class="nav justify-content-center">
                 <a class=" active mt-2 border border-danger rounded btn btn-sm mx-2 text-uppercase fw-bold" aria-current="page" href="#">Fish</a>

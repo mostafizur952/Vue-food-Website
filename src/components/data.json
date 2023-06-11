@@ -1,0 +1,6 @@
+[         {"id": 1, "name": "white biriyani","category":"kacchi","price": 10,"price2": 15,"price3": 60},
+          {"id": 2, "name": "white rice ","price": 10,"category":"white rice","price2": 65,"price3": 66},
+          {"id": 3, "name": "white rice with fish","category":"Meat","price": 10,"price2": 15,"price3": 50},
+          {"id": 34, "name": "white rice with fish","category":"Fish","price": 10,"price2": 15,"price3": 50}
+
+]

@@ -7,6 +7,8 @@
             <div class="col-xs-6 col-md-6 col-xl-6 d-flex justify-content-start ">
                 <div class="container">
                     <h2 class="title my-5">সাভার</h2>
+                    <hr class="my-3 center m-auto col-sm-2">
+
                     <p class="my-5"><i class="bi bi-watch" style="font-size: larger;"></i>
                         সকাল ১১.৩০ - রাত ১১.৩০ পর্যন্ত</p>
 
