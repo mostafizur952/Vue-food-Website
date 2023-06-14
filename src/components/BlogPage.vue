@@ -1,20 +1,22 @@
 <template>
-    <div  class="container py-5">
-     
-      <div class="row">
-        <div class="col-lg-9">
-          <div class="row my-3">
-            <div class="col-md-8 offset-md-2">
-              <h1 class="text-center mb-4"> Food Blog</h1>
-             <hr class="col-sm-2 m-auto">
-              <div v-for="post in paginatedPosts" :key="post.id" class="mb-4">
-                <h2>{{ post.title }}</h2>
-                  <img src="../../public/m2.jpg" class="img-fluid mb-3" alt="Image 1">
-                <p  class="">{{ post.content }}</p>
-              </div>
+    <div  class="container">
+    
+     <div class="row">
+        <div class="col-xl-9 col-md-12">
+           <div class="row">
+                <div class="col-md-4"  v-for="post in paginatedPosts" :key="post.id">
+                  <div class="card">
+                  <img class="card-img-top" src="../../public/m2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <div class="title fw-2">
+                      {{ post.title }}
+                    </div>
+                    <p class="card-text">{{ post.content }}</p>
+                  </div>
+                  </div>
+                </div>
             </div>
-          </div>
-            <nav aria-label="Page navigation">
+            <nav aria-label="Page navigation" class="mt-5">
               <ul class="pagination justify-content-center">
                 <li class="page-item" :class="{ 'disabled': currentPage === 1 }">
                   <a class="page-link" href="#" @click="changePage(currentPage - 1)" tabindex="-1" aria-disabled="true">Previous</a>
@@ -27,23 +29,55 @@
                 </li>
               </ul>
             </nav>
-                  </div>
-                  <div class="col-lg-3">
-                      <!-- Sidebar -->
-                      <div class="sidebar">
-                          <h3>Categories</h3>
-                          <div class="sidebar-item">Appetizers</div>
-                          <div class="sidebar-item">Main Courses</div>
-                          <div class="sidebar-item">Desserts</div>
-                          <h3>Popular Recipes</h3>
-                          <div class="sidebar-item">Recipe 1</div>
-                          <div class="sidebar-item">Recipe 2</div>
-                          <div class="sidebar-item">Recipe 3</div>
-                      </div>
-                  </div>
+        </div>
+        <div class="col-xl-3 col-md-12">
+          <div class="card  my-1">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../public/bg.jpg" alt="Card Image" class="img-fluid py-3 px-2">
               </div>
+              <div class="col-md-8">
+                <div class="card-body pt-5">
+                  <h5 class="card-title">Kacchi Biriyani</h5>
+                  <p class="card-text">12/10/2023</p>
+                </div>
+              </div>
+            </div>
           </div>
-       <div>
+
+          <div class="card  my-1">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="../../public/m2.jpg" alt="Card Image" class="img-fluid py-3 px-2">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Kacchi Biriyani</h5>
+                  <p class="card-text">12/10/2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="card  my-1">
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" alt="Card Image" class="img-fluid py-3 px-2">
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Kacchi Biriyani</h5>
+                  <p class="card-text">12/10/2023</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+     
+        </div>
+      </div>
+    </div>
+    <div>
         <OfficialGroup style="margin-top:10%;"></OfficialGroup>
         <FooterPage style="margin-top:5%;"></FooterPage>
     </div>
