@@ -8,7 +8,7 @@
                   <div class="card">
                   <img class="card-img-top" src="../../public/m2.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <div class="title fw-2">
+                    <div class="title_style fw-2">
                       {{ post.title }}
                     </div>
                     <p class="card-text">{{ post.content }}</p>
@@ -73,7 +73,7 @@
             </div>
           </div>
 
-     
+
         </div>
       </div>
     </div>
@@ -97,18 +97,18 @@
     data() {
       return {
         posts: [
-          { id: 1, title: "Post Title 1", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 2, title: "Post Title 2", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 3, title: "Post Title 3", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 4, title: "Post Title 4", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 5, title: "Post Title 5", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 6, title: "Post Title 6", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 7, title: "Post Title 7", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 8, title: "Post Title 8", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 9, title: "Post Title 9", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 10, title: "Post Title 10", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 11, title: "Post Title 11", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
-          { id: 12, title: "Post Title 12", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in, blanditiis numquam magni dolores dolorum assumenda veniam, quo sapiente optio dolore." },
+          { id: 1, title: "Post Title 1", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 2, title: "Post Title 2", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 3, title: "Post Title 3", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 4, title: "Post Title 4", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 5, title: "Post Title 5", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 6, title: "Post Title 6", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 7, title: "Post Title 7", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 8, title: "Post Title 8", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 9, title: "Post Title 9", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 10, title: "Post Title 10", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 11, title: "Post Title 11", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
+          { id: 12, title: "Post Title 12", content: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus est voluptatibus quod deserunt, pariatur minus consectetur numquam. Unde in," },
         ],
         pageSize: 3,
         currentPage: 1,
@@ -133,5 +133,12 @@
     },
   };
   </script>
+
+<style>
+ .title_style{
+  font-size: 25px;
+  font-weight:600;
+ }
+</style>
 
   

@@ -27,16 +27,19 @@
         </div>
         <OfficialGroup style="margin-top:10%;"></OfficialGroup>
         <FooterPage style="margin-top:5%;"></FooterPage>
+        <!-- <JustFun></JustFun> -->
     </div>
 </template>
 <script>
 import OfficialGroup from './HomeComponent/OfficialGroup.vue';
 import FooterPage from '../components/HomeComponent/FooterPage.vue';
+// import JustFun from './JustFun.vue';
 export default {
     name:"AboutPage",
     components:{
         OfficialGroup,
         FooterPage,
+        
         
     }
 }

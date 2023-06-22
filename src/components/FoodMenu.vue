@@ -16,7 +16,7 @@
             </div>
   
       <div class="row mt-5">
-              <div class="col-md-6 col-lg-3 p-1 animated animate__fadeInUp" v-for="product in filteredProducts" :key="product.id">
+              <div id="animate" class="col-md-6 col-lg-3 p-1 animated animate__zoomInUp" v-for="product in filteredProducts" :key="product.id">
                   <div class="card" aria-hidden="true">
                       <img src="https://uploads-ssl.webflow.com/63de61fd6af00b31333c0d3a/64205ee67e674a413bdf79a7_kacchi_bhai_basmati_kacchi_thumbnail_1649579791606%20(1).jpeg" class="card-img-top " alt="">
                       <div class="card-body">
@@ -67,6 +67,11 @@
         { id: 3, name: "beef biriyani", category: "BIRIYANI", price: 50 ,price2: 15,price3: 60},
         { id: 4, name: "white rice ", category: "WHITE-RICE", price: 25,price2: 15,price3: 60 },
         { id: 5, name: "Beef biriyani dui", category: "BIRIYANI", price: 50 ,price2: 15,price3: 60},
+        { id: 11, name: "Fish Rice", category: "FISH", price: 10,price2: 15,price3: 60 },
+        { id: 12, name: "kacchi biriyani", category: "KACCHI", price: 15 ,price2: 15,price3: 60 },
+        { id: 13, name: "beef biriyani", category: "BIRIYANI", price: 50 ,price2: 15,price3: 60},
+        { id: 14, name: "white rice ", category: "WHITE-RICE", price: 25,price2: 15,price3: 60 },
+        { id: 15, name: "Beef biriyani dui", category: "BIRIYANI", price: 50 ,price2: 15,price3: 60},
   
         // Add more products...
       ]);
@@ -75,8 +80,11 @@
       const uniqueCategories = computed(() => [...new Set(products.value.map((product) => product.category))]);
   
       const filteredProducts = computed(() => {
+        
         if (selectedCategory.value === "") {
+          
           return products.value;
+          
         } else {
           return products.value.filter((product) => product.category === selectedCategory.value);
         }
@@ -99,7 +107,9 @@
   .animated {
     animation-duration: 1s;
     animation-fill-mode: both;
+
   }
+
   
   .nav a{
       transition: 1s;
