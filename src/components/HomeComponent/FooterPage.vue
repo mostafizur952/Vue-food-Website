@@ -177,9 +177,9 @@ export default {
 
 .input:focus, input:hover {
  outline: none;
- border-color: rgb(253, 181, 48);
+ border-color:#F76B0B ;
  background-color: #fff;
- box-shadow: 0 0 0 1px orange;
+ box-shadow: 0 0 0 1px #F76B0B ;
 }
 
 .icon {
@@ -204,9 +204,9 @@ export default {
     font-size: 16px;
     letter-spacing: 1px;
     text-decoration: none;
-    color: white;
-    background: orange;
-    border: 3px solid rgb(253, 253, 253);
+    color: #F76B0B  ;
+    background: rgb(255, 255, 255);
+    border: 3px solid rgb(197, 197, 197);
     cursor: pointer;
     transition: ease-out 0.5s;
     -webkit-transition: ease-out 0.5s;
@@ -245,7 +245,7 @@ export default {
 .subButton.subButton-border-2:hover::before {
     width: calc(50% + 3px);
     height: calc(50% + 3px);
-    border-color: rgb(6, 94, 3);
+    border-color: #F76B0B ;
 }
 
 

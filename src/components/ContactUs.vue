@@ -91,7 +91,7 @@ export default {
 }
 .form-control:hover {
  color: #0d0c22;
- border-color: rgb(253, 181, 48);
- box-shadow: 0 0 0 1px orange;
+ border-color: #F76B0B ;
+ box-shadow: 0 0 0 1px #F76B0B ;
 }
 </style>

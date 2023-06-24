@@ -29,6 +29,7 @@ export default {
 </script>
 
 <style>
+
 .nfbody{
   display:grid;
   height:90vh;
@@ -65,15 +66,20 @@ export default {
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
     transition: 0.5s;
     display: inline-block;
-    color: #fff;
+    color: #ffffff;
     border-radius: 0.25rem;
     font-size: 1.0em;
     padding: 0.5em 2em;
-    background: rgb(60, 198, 138);
+    background: #E9660B ;
     text-decoration: none;
 
 }
 
+/* .go-back-btn:hover{
+    color: #685dff;
+    background: #F76B0B ;
+
+} */
 
 @media (max-width: 425px) {
 .nfbody{

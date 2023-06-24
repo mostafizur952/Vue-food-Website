@@ -8,10 +8,10 @@
                   <div class="">
                   <img class="card-img-top" src="../../public/m2.jpg" alt="Card image cap">
                   <div class="card-body post-body py-2">
-                    <a><i class="bi bi-clock py-3"></i>30 MINUTES</a>
-                    <p class="card-text title">{{ post.title }}</p> 
+                    <p><i class="bi bi-clock py-5 px-2 time "></i>30 MINUTES</p>
+                    <p class="card-text fw-bold ">{{ post.title }}</p> 
                     <p class="blog-card-content">{{ post.content }}</p>
-                    <a href="#" class="readMoreBtn btn-orange">Read More</a>
+                    <router-link to="/blogview" class="readMoreBtn btn-orange">Read More</router-link>
                   </div>
                   </div>
                 </div>
@@ -26,61 +26,61 @@
               </ul>
             </nav>
         </div>
-        <div class="sb-body col-xl-3 col-md-12">
+        <div class="sb-body col-xl-3 col-md-12 ">
          <h4 class="fw-bold pt-2 ">Recent Post</h4>
           <div class="row g-5 ">
                 <div class="col-lg-12">
                   <div class=" my-2">
-                     <div class="row g-0">
+                     <div class="row g-0 sb-post">
                        <div class="col-6 col-md-5">
                         <img src="../../public/m2.jpg" alt="Card Image" class="card-img img-fluid rounded">
                        </div>
                        <div class="col-6 col-md-7">
                          <div class="card-body d-flex flex-column p-2">
-                          <p class="py-1">1th june 2023</p>
-                          <p class="fw-bold">Classic Dishes with a Modern Twist</p>
+                          <p class="py-1 time">1th june 2023</p>
+                          <router-link to="/blogview" class="fw-bold sb-title">Classic Dishes with a Modern Twist</router-link>
                          </div>
                        </div>
                      </div>
                   </div>
 
                   <div class=" my-2">
-                     <div class="row g-0">
+                     <div class="row g-0 sb-post">
                        <div class="col-6 col-md-5">
                         <img src="../../public/m2.jpg" alt="Card Image" class="card-img img-fluid rounded">
                        </div>
                        <div class="col-6 col-md-7">
                          <div class="card-body d-flex flex-column p-2">
-                          <p class="py-1">1th june 2023</p>
-                          <p class="fw-bold">Classic Dishes with a Modern Twist</p>
+                          <p class="py-1 time">1th june 2023</p>
+                          <router-link to="/blogview" class="fw-bold sb-title">Classic Dishes with a Modern Twist</router-link>
                          </div>
                        </div>
                      </div>
                   </div>
 
                   <div class=" my-2">
-                     <div class="row g-0">
+                     <div class="row g-0 sb-post">
                        <div class="col-6 col-md-5">
                         <img src="../../public/m2.jpg" alt="Card Image" class="card-img img-fluid rounded">
                        </div>
                        <div class="col-6 col-md-7">
                          <div class="card-body d-flex flex-column p-2">
-                          <p class="py-1">1th june 2023</p>
-                          <p class="fw-bold">Classic Dishes with a Modern Twist</p>
+                          <p class="py-1 time">1th june 2023</p>
+                          <router-link to="/blogview" class="fw-bold sb-title">Classic Dishes with a Modern Twist</router-link>
                          </div>
                        </div>
                      </div>
                   </div>
 
                   <div class=" my-2">
-                     <div class="row g-0">
+                     <div class="row g-0 sb-post">
                        <div class="col-6 col-md-5">
                         <img src="../../public/m2.jpg" alt="Card Image" class="card-img img-fluid rounded">
                        </div>
                        <div class="col-6 col-md-7">
                          <div class="card-body d-flex flex-column p-2">
-                          <p class="py-1">1th june 2023</p>
-                          <p class="fw-bold">Classic Dishes with a Modern Twist</p>
+                          <p class="py-1 time">1th june 2023</p>
+                          <router-link to="/blogview" class="fw-bold sb-title">Classic Dishes with a Modern Twist</router-link>
                          </div>
                        </div>
                      </div>
@@ -93,8 +93,8 @@
       </div>
     </div>
     <div>
-        <OfficialGroup style="margin-top:10%;"></OfficialGroup>
-        <FooterPage style="margin-top:5%;"></FooterPage>
+        <OfficialGroup class="mt-5"></OfficialGroup>
+        <FooterPage class="mt-2"></FooterPage>
     </div>
   </template>
   
@@ -112,7 +112,7 @@
     data() {
       return {
         posts: [
-          { id: 1, title: " Delicious Recipes for Busy Weeknights", content: "Food is an essential aspect of our lives, providing sustenance, pleasure, and a cultural connection. It encompasses a vast array of flavors, textures, and aromas that tantalize our taste buds and evoke deep-rooted emotions. Food not only nourishes our bodies but also brings people together, fostering shared experiences and bonding over meals. Whether it's a comforting bowl of soup on a cold day, a vibrant array of spices in an exotic dish, or a simple homemade favorite, food has the power to evoke memories, create connections, and showcase diverse culinary traditions. Exploring different cuisines allows us to embark on a gastronomic adventure, expanding our horizons and appreciating the richness of global cultures. From farm-fresh ingredients to intricate culinary techniques, food embodies creativity and craftsmanship. It stimulates our senses, fuels our bodies, and serves as a gateway to exploring the world's diverse flavors, making it a source of joy and inspiration for all." },
+          { id: 1, title: "Bold and Flavorful Recipes from Around the World", content: "Food is an essential aspect of our lives, providing sustenance, pleasure, and a cultural connection. It encompasses a vast array of flavors, textures, and aromas that tantalize our taste buds and evoke deep-rooted emotions. Food not only nourishes our bodies but also brings people together, fostering shared experiences and bonding over meals. Whether it's a comforting bowl of soup on a cold day, a vibrant array of spices in an exotic dish, or a simple homemade favorite, food has the power to evoke memories, create connections, and showcase diverse culinary traditions. Exploring different cuisines allows us to embark on a gastronomic adventure, expanding our horizons and appreciating the richness of global cultures. From farm-fresh ingredients to intricate culinary techniques, food embodies creativity and craftsmanship. It stimulates our senses, fuels our bodies, and serves as a gateway to exploring the world's diverse flavors, making it a source of joy and inspiration for all." },
           { id: 2, title: "From Garden to Table: Fresh and Flavorful Recipes", content: "Food is an essential aspect of our lives, providing sustenance, pleasure, and a cultural connection. It encompasses a vast array of flavors, textures, and aromas that tantalize our taste buds and evoke deep-rooted emotions. Food not only nourishes our bodies but also brings people together, fostering shared experiences and bonding over meals. Whether it's a comforting bowl of soup on a cold day, a vibrant array of spices in an exotic dish, or a simple homemade favorite, food has the power to evoke memories, create connections, and showcase diverse culinary traditions. Exploring different cuisines allows us to embark on a gastronomic adventure, expanding our horizons and appreciating the richness of global cultures. From farm-fresh ingredients to intricate culinary techniques, food embodies creativity and craftsmanship. It stimulates our senses, fuels our bodies, and serves as a gateway to exploring the world's diverse flavors, making it a source of joy and inspiration for all." },
           { id: 3, title: " Indulgent Desserts for Every Sweet Tooth", content: "Food is an sustenance, pleasure, and a cultural connection. It encompasses a vast array of flavors, textures, and aromas that tantalize our taste buds and evoke deep-rooted emotions. Food not only nourishes our bodies but also brings people together, fostering shared experiences and bonding over meals. Whether it's a comforting bowl of soup on a cold day, a vibrant array of spices in an exotic dish, or a simple homemade favorite, food has the power to evoke memories, create connections, and showcase diverse culinary traditions. Exploring different cuisines allows us to embark on a gastronomic adventure, expanding our horizons and appreciating the richness of global cultures. From farm-fresh ingredients to intricate culinary techniques, food embodies creativity and craftsmanship. It stimulates our senses, fuels our bodies, and serves as a gateway to exploring the world's diverse flavors, making it a source of joy and inspiration for all." },
           { id: 4, title: "International Recipes and Food Adventures", content: "Food is an essential aspect of our lives, providing sustenance, pleasure, and a cultural connection. It encompasses a vast array of flavors, textures, and aromas that tantalize our taste buds and evoke deep-rooted emotions. Food not only nourishes our bodies but also brings people together, fostering shared experiences and bonding over meals. Whether it's a comforting bowl of soup on a cold day, a vibrant array of spices in an exotic dish, or a simple homemade favorite, food has the power to evoke memories, create connections, and showcase diverse culinary traditions. Exploring different cuisines allows us to embark on a gastronomic adventure, expanding our horizons and appreciating the richness of global cultures. From farm-fresh ingredients to intricate culinary techniques, food embodies creativity and craftsmanship. It stimulates our senses, fuels our bodies, and serves as a gateway to exploring the world's diverse flavors, making it a source of joy and inspiration for all." },
@@ -156,10 +156,7 @@
    padding-bottom:2rem;
 }
 
-.post-body .title{
-  font-size:20px;
-  font-weight: 600;
-}
+
 
 .blog-card-content {
   max-height:70px; 
@@ -175,7 +172,7 @@
   position: relative;
   font-size:15px !important;
   padding:.7em 1.5em;
-  background-color: orange;
+  background-color: #F76B0B ;
   text-decoration: none;
   border-radius: 0.5em;
   color: #ffffff;
@@ -190,7 +187,7 @@
   width: 0;
   top: 0;
   left: 0;
-  background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%, rgb(241, 168, 31) 50%, rgb(243, 171, 37) 60%);
+  background: linear-gradient(135deg, rgba(33,33,33,1) 0%, rgba(33,33,33,1) 50%, #F76B0B  50%, #F76B0B  60%);
   border-radius: 0.5em;
 
   box-shadow: 0.2em 0.2em 0.2em rgba(0, 0, 0, 0.3);
@@ -252,8 +249,8 @@
 }
 
 .pagination .page-item.active .page-link {
-  background-color: orange;
-  border-color: orange;
+  background-color: #F76B0B ;
+  border-color: #F76B0B ;
   outline: none;
   color: white;
 }
@@ -275,12 +272,41 @@
 }
 
 .card-img{
-  width: 100%;
-  height: 100%;
+  width:80%;
+  height:80%;
   object-fit: cover;
   border-bottom-right-radius: 0px;
 }
 
+
+.time{
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+
+
+}
+
+.sb-post{
+  padding: 15px 2px 2px 15px;
+  transition: 1s;
+  border-radius: 5%;
+
+}
+.sb-post:hover{
+  background: linear-gradient(145deg, #dedddd, #ffffff);
+  box-shadow:  20px 20px 60px #d2d1d1,
+              -20px -20px 60px #ffffff;
+  transition: 1s;
+  cursor: pointer;
+  border-radius: 5%;
+
+}
+
+.sb-title{
+  text-decoration: none;
+  color: rgb(34, 34, 34);
+}
 </style>
 
   

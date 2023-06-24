@@ -6,7 +6,10 @@ import AllBranch from './components/AllBranch.vue'
 import ContactUs from './components/ContactUs.vue'
 import PrivacyPage from './components/PrivacyPage.vue'
 import BlogPage from './components/BlogPage.vue'
+import BlogView from './components/BlogView.vue'
+
 import NotFound from './components/NotFound.vue'
+
 
 
 import {createRouter,createWebHistory }from 'vue-router';
@@ -49,6 +52,11 @@ const routes =[
         name :'PrivacyPage',
         component:PrivacyPage,
         path :'/privacy',
+    },
+    {
+        name :'Blogview',
+        component:BlogView,
+        path :'/blogview',
     },
     {
         name :'BlogPage',
