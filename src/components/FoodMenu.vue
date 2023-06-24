@@ -2,18 +2,18 @@
     <div>
         <h2 class="display-6 text-center mt-2 fw-bold w-auto">Our Special Menu</h2>
         <hr class="my-3 center m-auto" style="width:200px">
-        <div class="lead my-3 ">
-                <ul class="nav justify-content-center">
-                    <a @click="filterByCategory('')" id='myButton' class=" active mt-2 border border-danger rounded btn btn-sm mx-2 text-uppercase fw-bold" >All</a>
-                    <a
-                    
-                    v-for="category in uniqueCategories"
-                    :key="category"
-                    @click="filterByCategory(category)"
-                                class=" active mt-2 border border-danger rounded btn btn-sm mx-2 text-uppercase fw-bold"
-                    >  {{ category }}</a>
-                </ul>
-            </div>
+        <nav aria-label="Page navigation" class="mt-5">
+            <ul class="pagination justify-content-center container">
+              <li class="page-item">
+                <a class="page-link"  href="#"  @click="filterByCategory('')"> All</a>
+              </li>
+               <li class="page-item "  v-for="category in uniqueCategories"
+                :key="category"
+                @click="filterByCategory(category)">
+                <a class="page-link"  href="#"> {{ category }}</a>
+              </li>
+            </ul>
+        </nav>
   
       <div class="row mt-5">
               <div id="animate" class="col-md-6 col-lg-3 p-1 animated animate__zoomInUp" v-for="product in filteredProducts" :key="product.id">
@@ -28,10 +28,10 @@
                                    <img src="../../public/1.webp" style="width:50px" alt="">
                               </span>
                               <span class=" col-4">
-                                   <img src="../../public/1.webp" style="width:50px" alt="">
+                                   <img src="../../public/3.webp" style="width:50px" alt="">
                               </span>
                               <span class=" col-4">
-                                   <img src="../../public/1.webp" style="width:50px" alt="">
+                                   <img src="../../public/5.webp" style="width:50px" alt="">
                               </span>
                           </div>
   
@@ -110,32 +110,4 @@
 
   }
 
-  
-  .nav a{
-      transition: 1s;
-      text-decoration: none;
-
-      color: #090909;
-      padding: 0.3em .9em;
-      font-size: 15px;
-      border-radius: 0.5em;
-      background: #e8e8e8;
-      /* border: 1px solid #e8e8e8; */
-      transition: all .3s;
-      box-shadow: 6px 6px 12px #c5c5c5,
-                -6px -6px 12px #ffffff;
-  }
-  .nav a:hover {
-      color: rgb(26, 101, 240);
-      transition: .5s;
-      border: 1.5px solid white;
-      box-shadow: 0px 0px 0px #c5c5c5,
-                -0px -0px 0px #ffffff;
-  }
-
-
-.nav a:active {
-  box-shadow: 4px 4px 12px #c5c5c5,
-             -4px -4px 12px #ffffff;
-}
 </style>

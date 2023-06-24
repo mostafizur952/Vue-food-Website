@@ -6,11 +6,13 @@ import AllBranch from './components/AllBranch.vue'
 import ContactUs from './components/ContactUs.vue'
 import PrivacyPage from './components/PrivacyPage.vue'
 import BlogPage from './components/BlogPage.vue'
+import NotFound from './components/NotFound.vue'
 
 
 import {createRouter,createWebHistory }from 'vue-router';
 
 const routes =[
+
     {
         name:'Home',
         component:Home,
@@ -52,11 +54,29 @@ const routes =[
         name :'BlogPage',
         component:BlogPage,
         path :'/blog',
+    },
+    {
+        path: '/:pathMatch(.*)*',
+        component: NotFound,
     }
 ]
 
 
 const router = createRouter ({
+    scrollBehavior(to,from,savePosition){
+        if(savePosition){
+            return {
+            savePosition,
+            behavior:'smooth',
+           }
+        }
+        else{
+            return {
+                top:0,
+                behavior:'smooth',
+            }
+        }
+    },
     history:createWebHistory(),
     routes,
 })

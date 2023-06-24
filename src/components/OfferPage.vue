@@ -39,8 +39,8 @@
             </div>
         </div>
     </div>
-        <OfficialGroup style="margin-top:10%;"></OfficialGroup>
-        <FooterPage style="margin-top:5%;"></FooterPage>
+        <OfficialGroup class="mt-3"></OfficialGroup>
+        <FooterPage class="mt-3"></FooterPage>
     </div>
 </template>
 <script>

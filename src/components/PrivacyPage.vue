@@ -14,21 +14,18 @@
         <p>We may also use Google Analytics or a similar service to gather statistical information about the visitors to this Site and how they use the Site. This, also, is done on an anonymous basis. We will not try to associate anonymous data with your personally identifiable data. If you would like to learn more about Google Analytics, please click here.</p>
     </div>
     <div>
-    <OfficialGroup style="margin-top:10%;"></OfficialGroup>
-        <FooterPage style="margin-top:5%;"></FooterPage>
-        <JustFun></JustFun>
+    <OfficialGroup class="mt-3"></OfficialGroup>
+        <FooterPage class="mt-3"></FooterPage>
     </div>
 </template>
 <script>
 import OfficialGroup from './HomeComponent/OfficialGroup.vue';
 import FooterPage from '../components/HomeComponent/FooterPage.vue';
-import JustFun from '../components/JustFun.vue'
 export default {
     name:"PrivacyPage",
     components:{
         OfficialGroup,
         FooterPage,
-        JustFun
     }
 }
 </script>
